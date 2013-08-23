@@ -16,7 +16,7 @@
    id="svg3204"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="New document 3">
+   sodipodi:docname="seitenhintergrund.svg">
   <defs
      id="defs3206">
     <inkscape:perspective
@@ -723,18 +723,27 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24748737"
-     inkscape:cx="714.89631"
-     inkscape:cy="88.727086"
+     inkscape:zoom="4.4099999"
+     inkscape:cx="216.32102"
+     inkscape:cy="30.823702"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:snap-page="false"
+     inkscape:snap-page="true"
      inkscape:window-width="1024"
      inkscape:window-height="718"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       orientation="0,1"
+       position="110.71429,42.339282"
+       id="guide27504" />
+  </sodipodi:namedview>
   <metadata
      id="metadata3209">
     <rdf:RDF>
@@ -743,10 +752,23 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Hintergrund 2">
+    <rect
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect27502"
+       width="1052.3622"
+       height="19.285784"
+       x="0"
+       y="701.9516"
+       ry="0" />
+  </g>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
@@ -763,7 +785,7 @@
        ry="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 0,1010.6479 1052.3622,0 0,0"
+       d="m 0,1009.9676 1052.3622,0 0,0"
        id="path3214"
        inkscape:connector-curvature="0" />
   </g>
