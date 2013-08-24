@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="350.78738"
+   height="744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="titel.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3087">
+      <stop
+         style="stop-color:#61b5f6;stop-opacity:1;"
+         offset="0"
+         id="stop3089" />
+      <stop
+         style="stop-color:#64a8dc;stop-opacity:1;"
+         offset="1"
+         id="stop3091" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3087"
+       id="radialGradient4121"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.3534194,-0.75066567,0.8249571,-1.487346,151.91685,1870.8266)"
+       cx="307.14285"
+       cy="692.05914"
+       fx="307.14285"
+       fy="692.05914"
+       r="130.72554" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3087"
+       id="radialGradient4155"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.4865358,-0.76518298,0.84091172,-1.6336351,204.64823,1907.2797)"
+       cx="307.14285"
+       cy="692.05914"
+       fx="307.14285"
+       fy="692.05914"
+       r="130.72554" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.1057793"
+     inkscape:cx="362.14286"
+     inkscape:cy="369.28571"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     units="mm"
+     inkscape:window-width="1024"
+     inkscape:window-height="718"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Blender" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Hintergrund">
+    <path
+       style="fill:#ffffff"
+       d="m 37.077922,366.98489 2.713019,-62.39944 248.693379,4.5217 -0.90434,65.11245 z"
+       id="path4163"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/basti/piraten/openantrag/titel.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#ffffff"
+       d="m 18.991131,376.02828 310.188469,-4.5217 0.90434,59.68642 -309.28413,3.61735 z"
+       id="path4165"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/basti/piraten/openantrag/titel.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.26769)">
+    <g
+       id="g4130"
+       transform="matrix(0.92523484,0.02871894,-0.02871894,0.92523484,17.344214,100.26777)"
+       inkscape:export-filename="/home/basti/piraten/openantrag/titel.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         y="552.86835"
+         x="45.714283"
+         height="63.779526"
+         width="261.45108"
+         id="rect3015"
+         style="color:#000000;fill:url(#radialGradient4155);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <flowRoot
+         transform="matrix(0.90105133,0,0,0.90105133,22.894867,58.428288)"
+         id="flowRoot3063"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Politics Head;-inkscape-font-specification:Politics Head"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3065"><use
+             height="744.09448"
+             width="350.78738"
+             id="use3067"
+             xlink:href="#rect3015"
+             y="0"
+             x="0" /></flowRegion><flowPara
+           id="flowPara3069">IHR antrag </flowPara></flowRoot>    </g>
+    <g
+       id="g4123"
+       transform="matrix(0.92567016,-0.00436284,0.00436284,0.92567016,17.104181,30.435993)"
+       inkscape:export-filename="/home/basti/piraten/openantrag/titel.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         y="704.24072"
+         x="4.2857137"
+         height="60.97863"
+         width="326.49045"
+         id="rect3019"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <flowRoot
+         transform="matrix(0.95754748,0,0,0.95754748,16.340947,30.645953)"
+         id="flowRoot3079"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Politics Head;-inkscape-font-specification:Politics Head"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3081"><use
+             height="744.09448"
+             width="350.78738"
+             id="use3083"
+             xlink:href="#rect3019"
+             y="0"
+             x="0" /></flowRegion><flowPara
+           id="flowPara3085">IM parlament</flowPara></flowRoot>    </g>
+  </g>
+</svg>
