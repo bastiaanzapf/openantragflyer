@@ -726,11 +726,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.34335248"
-     inkscape:cx="-197.71357"
-     inkscape:cy="99.618928"
+     inkscape:zoom="4"
+     inkscape:cx="20.013272"
+     inkscape:cy="1.7444745"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer4"
      showgrid="false"
      inkscape:snap-page="true"
      inkscape:window-width="1024"
@@ -766,10 +766,10 @@
     <rect
        style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect27502"
-       width="1052.3622"
+       width="1066.5354"
        height="19.285784"
-       x="0"
-       y="701.9516"
+       x="-7.0866141"
+       y="700.88782"
        ry="0" />
   </g>
   <g
@@ -780,15 +780,14 @@
     <rect
        style="color:#000000;fill:#ff7f2a;fill-opacity:1;fill-rule:nonzero;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect3212"
-       width="1052.3622"
-       height="37.142857"
-       x="0"
-       y="706.9516"
-       transform="translate(0,308.2677)"
+       width="1066.5354"
+       height="44.29134"
+       x="-7.0866141"
+       y="1015.1575"
        ry="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 0,1009.9676 1052.3622,0 0,0"
+       style="fill:none;stroke:#000000;stroke-width:1.25764275;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -6.4577928,1009.2137 1065.2701928,0 0,0"
        id="path3214"
        inkscape:connector-curvature="0" />
   </g>
@@ -798,7 +797,7 @@
      inkscape:label="Hintergrund">
     <g
        id="g4513"
-       transform="matrix(0.75681015,0,0,0.75681015,166.83119,293.14604)">
+       transform="matrix(0.75681015,0,0,0.75681015,190.83119,293.14604)">
       <path
          transform="matrix(0.9494311,0,0,0.9494311,37.003481,20.6235)"
          d="m 832.85712,521.9516 c 0,38.65993 -31.34007,70 -70,70 -38.65994,0 -70,-31.34007 -70,-70 0,-38.65993 31.34006,-70 70,-70 38.65993,0 70,31.34007 70,70 z"
