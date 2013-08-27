@@ -16,7 +16,10 @@
    id="svg3204"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="seitenhintergrund.svg">
+   sodipodi:docname="seitenhintergrund.svg"
+   inkscape:export-filename="/home/basti/piraten/openantrag/seitenhintergrund.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <defs
      id="defs3206">
     <inkscape:perspective
@@ -723,11 +726,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.4099999"
-     inkscape:cx="216.32102"
-     inkscape:cy="30.823702"
+     inkscape:zoom="0.34335248"
+     inkscape:cx="-197.71357"
+     inkscape:cy="99.618928"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:snap-page="true"
      inkscape:window-width="1024"
@@ -752,7 +755,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
