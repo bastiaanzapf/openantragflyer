@@ -1,0 +1,11 @@
+
+Hier sind Skripte, mit denen man die blauen Überschriften auf der 
+zweiten Seite erzeugen kann. Führe das Skript
+
+"ueberschrift-interaktiv" 
+
+aus, um eine Überschrift zu erzeugen.
+
+ACHTUNG: der Text muss noch auf "Versalhöhe" eingestellt werden, das
+geht noch nicht aus Python heraus, und es empfiehlt sich, Textumfluss
+zu verwenden.
