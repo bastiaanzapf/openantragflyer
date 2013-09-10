@@ -3,7 +3,7 @@
 
 from ueberschrift import *
 
-DrawHeader(0,100,"","Marburg")
-DrawHeader(1,100,"","Göttingen")
-DrawHeader(2,100,"","Uelzen")
-DrawHeader(2,300,"","Hannover")
+DrawHeader(0,40,"","Marburg")
+DrawHeader(1,40,"","Frankfurt")
+DrawHeader(2,40,"","Uelzen")
+DrawHeader(2,200,"","Göttingen")

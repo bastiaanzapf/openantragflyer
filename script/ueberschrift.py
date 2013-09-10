@@ -7,10 +7,13 @@ except ImportError:
     print "This script only runs from within Scribus."
     sys.exit(1)
 
+from util import *
+
 colwidth=280
 overprint=1
 
 def DrawHeaderText(title):
+    global key
     global col,y
     global guideleft
 
@@ -22,10 +25,14 @@ def DrawHeaderText(title):
     setFont("Bebas Neue Regular",text)
     setTextAlignment(ALIGN_CENTERED, text)
     setTextColor("Openantrag-Blau-2",text)
+    objname='OA_' + key + '_TEXT'
+    setProperty(text,'itemName',objname)
+#    setOffsetPolicy(1,text)
 
-    return text
+    return objname
 
 def DrawIdeogram(ideogram):
+    global key
     global col,y
     global guideleft
 
@@ -37,9 +44,12 @@ def DrawIdeogram(ideogram):
     setFont("fontello-openantrag Regular",text)
     setTextAlignment(ALIGN_CENTERED, text)
     setTextColor("White",text)
-    return text
+    objname='OA_' + key + '_IDEO'
+    setProperty(text,'itemName',objname)
+    return objname
 
 def Draw1ColBox():
+    global key
     global col,y
     global guideleft
 
@@ -68,16 +78,24 @@ def Draw1ColBox():
     setLineWidth(10,box)
     setLineColor("None",box)
 
-    return box
+    objname='OA_' + key + '_BG'
+    setProperty(box,'itemName',objname)
 
-def DrawHeader(column,ycoord,ideogram,title):
+    return objname
 
+def DrawHeader(column,ycoord,ideogram,title,newkey=None):
+    global key
     global col
     col=column
     global y
     y=ycoord
     global guideleft
     global trim
+
+    if (newkey==None):
+        key=title        
+    else:
+        key=newkey
 
     guideleft=col*colwidth
     trim=5.67
@@ -90,6 +108,9 @@ def DrawHeader(column,ycoord,ideogram,title):
     Oideo=DrawIdeogram(ideogram)
 
     group=groupObjects([Obox,Otext,Oideo])
+
+#    objname='OA_' + key
+#    setProperty(group,'itemName',objname)
 
 #    textFlowsAroundFrame(group,true)
 
