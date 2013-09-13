@@ -12,13 +12,18 @@ from util import *
 colwidth=280
 overprint=1
 
-def DrawHeaderText(title):
+def DrawHeaderText(title,iconright):
     global key
     global col,y
     global guideleft
 
-    x=guideleft+(3*colwidth/10)
+    # 2/3-1/2 = 1/6
+    # 3/10-1/3
 
+    if (not(iconright)):
+        x=guideleft+(3*colwidth/10)
+    else:
+        x=guideleft+(1*colwidth/10) 
     text=createText(x,y+10,(2*colwidth/3),30)
     insertText(title, 0, text)  
     setFontSize(24,text)
@@ -31,13 +36,15 @@ def DrawHeaderText(title):
 
     return objname
 
-def DrawIdeogram(ideogram):
+def DrawIdeogram(ideogram,iconright):
     global key
     global col,y
     global guideleft
 
-    x=guideleft+(1*colwidth/10)
-
+    if (not(iconright)):
+        x=guideleft+(1*colwidth/10)
+    else:
+        x=guideleft+(7*colwidth/10)
     text=createText(x,y+10,(2*colwidth/10),30)
     insertText(ideogram, 0, text)  
     setFontSize(30,text)
@@ -83,7 +90,7 @@ def Draw1ColBox():
 
     return objname
 
-def DrawHeader(column,ycoord,ideogram,title,newkey=None):
+def DrawHeader(column,ycoord,ideogram,title,iconright,newkey=None):
     global key
     global col
     col=column
@@ -104,8 +111,9 @@ def DrawHeader(column,ycoord,ideogram,title,newkey=None):
 #    colwidth=280
 
     Obox=Draw1ColBox()
-    Otext=DrawHeaderText(title)
-    Oideo=DrawIdeogram(ideogram)
+
+    Otext=DrawHeaderText(title,iconright)
+    Oideo=DrawIdeogram(ideogram,iconright)
 
     group=groupObjects([Obox,Otext,Oideo])
 

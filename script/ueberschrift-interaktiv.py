@@ -3,10 +3,12 @@
 
 from ueberschrift import *
 
-col = valueDialog('Piraten OpenAntrag Flyer','Spalte')
-y = valueDialog('Piraten OpenAntrag Flyer','y-Koordinate (pt)')
+dialogheader='Piraten OpenAntrag Flyer';
 
-ideo = valueDialog('Piraten OpenAntrag Flyer',
+col = valueDialog(dialogheader,'Spalte')
+y = valueDialog(dialogheader,'y-Koordinate (pt)')
+
+ideo = valueDialog(dialogheader,
 """
 Ideogramm:
 Copy&Paste ODER
@@ -43,6 +45,8 @@ elif (ideo=="9"):
 elif (ideo=="10"):
     ideo=""
 
-text = valueDialog('Piraten OpenAntrag Flyer','Text')
+text = valueDialog(dialogheader,'Text')
 
-DrawHeader(int(col),int(y),ideo,text)
+iconright = valueDialog(dialogheader,'Icon nach Rechts (1) oder nach Links (0)?')
+
+DrawHeader(int(col),int(y),ideo,text,iconright)
