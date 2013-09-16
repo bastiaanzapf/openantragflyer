@@ -45,7 +45,7 @@ def DrawIdeogram(ideogram,iconright):
         x=guideleft+(1*colwidth/10)
     else:
         x=guideleft+(7*colwidth/10)
-    text=createText(x,y+10,(2*colwidth/10),30)
+    text=createText(x,y+5,(2*colwidth/10),35)
     insertText(ideogram, 0, text)  
     setFontSize(30,text)
     setFont("fontello-openantrag Regular",text)

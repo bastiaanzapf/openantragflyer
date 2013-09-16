@@ -22,6 +22,7 @@ Copy&Paste ODER
 8 für "Fragezeichen"
 9 für "Megaphon"
 10 für "Info"
+11 für "Idee/Glühbirne"
 """)
 
 if (ideo=="1"):
@@ -44,9 +45,18 @@ elif (ideo=="9"):
     ideo=""
 elif (ideo=="10"):
     ideo=""
+elif (ideo=="11"):
+    ideo=""
 
 text = valueDialog(dialogheader,'Text')
 
 iconright = valueDialog(dialogheader,'Icon nach Rechts (1) oder nach Links (0)?')
+
+if (iconright=="0"):
+    iconright=False
+elif (iconright=="1"):
+    iconright=True
+else:
+    iconright=False
 
 DrawHeader(int(col),int(y),ideo,text,iconright)
